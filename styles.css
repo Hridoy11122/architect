@@ -1,0 +1,375 @@
+* {
+  margin: 0px;
+  padding: 0px;
+
+}
+/* first part of the website */
+
+/* banner */
+.banner {
+  background: rgba(255, 14, 14, 0.1);
+  margin-bottom: 85px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  align-items: center;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+}
+.items {
+  display: flex;
+  list-style: none;
+}
+.item {
+  margin-right: 20px;
+  font-size: 12px;
+}
+
+/* brand */
+
+.brand {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 99px;
+  flex-direction: column;
+}
+
+.brand-header {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+}
+.brand-body {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+/* button  */
+
+.btn {
+  color: #ffffff;
+  background: #ff7e0e;
+  padding: 20px;
+  font-size: 15px;
+  border-radius: 10px;
+  border-style: none;
+  transition: 2s;
+}
+.btn:hover {
+  background-color: #ff0984;
+}
+
+.brand img {
+  width: 85%;
+  height: 550px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+/* body work  */
+
+.body-image {
+  height: 250px;
+  width: 280px;
+  border-radius: 8px;
+}
+
+.body-image-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.middle-body {
+  display: flex;
+  margin: 0 auto;
+  width: 70%;
+}
+.body-info {
+  width: 100%;
+  margin: auto 0 auto 35px;
+}
+.body-title {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+
+.body-details {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  margin-bottom: 10px;
+}
+/* feature  */
+
+.feature {
+  display: flex;
+  width: 80%;
+  margin: 70px auto;
+}
+
+.feature-tittle {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  width: 496.75px;
+  height: 83.1px;
+  border-left: 5px solid orange;
+  padding-left: 10px;
+  margin-bottom: 15px;
+}
+.feature-body,
+.function-details,
+.facts-body {
+  width: 622px;
+  height: 81.02px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+}
+.function,
+.facts-title {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.architect-right {
+  width: 100%;
+  background-image: url(images/architect.png);
+  position: relative;
+}
+.experience-button {
+  position: absolute;
+  bottom: -25px;
+  left: -35px;
+  padding: 20px;
+  background-color: rgba(255, 166, 0, 0.925);
+  border-style: none;
+  border-radius: 10px;
+  transition: 2s;
+}
+
+.btn-1 {
+  font-size: 30px;
+  font-weight: 800;
+  color: white;
+}
+.btn-2 {
+  color: white;
+}
+
+.facts {
+  width: 80%;
+  margin: 50px auto;
+}
+.work {
+  /* width: 200px; */
+  text-align: center;
+  border: 2px solid orange;
+  /* width: 241.83px; */
+  height: 140px;
+  border-radius: 8px;
+  padding-top: 20px;
+}
+.number {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  color: #424242;
+  padding: 5px 0;
+}
+.name {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  color: #727272;
+}
+.work-grid {
+  width: 65%;
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 40px;
+}
+
+/* sponsors */
+
+.sponsers {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 55px;
+  flex-direction: column;
+}
+
+.sponsers-header {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+}
+.sponsers-body {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  color: #727272;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.sponser-tag {
+  width: 70%;
+  margin: 30px auto;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.sponser-image {
+  width: 100px;
+  height: 30px;
+  webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+/* footer */
+.foot {
+  width: 80%;
+  height: 50px;
+  margin: 50px auto;
+  text-align: center;
+  background: #fff4e7;
+  border-radius: 8px;
+}
+.foot-body {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  color: #424242;
+  padding-top: 20px;
+}
+
+/* -------------------------------------
+                      Media Query
+  ------------------------------------- */
+
+@media screen and (max-width: 576px) {
+  .header {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 700;
+  }
+  .brand{
+    margin-top: 15px;
+  }
+  .brand-header {
+    font-size: 35px;
+  }
+  .brand-body {
+    font-size: 12px;
+    padding: 0 30px;
+    text-align: justify;
+  }
+  .btn{
+    padding: 10px 12px;
+  }
+  .brand img {
+    height: 240px;
+  }
+  .middle-body {
+    flex-direction: column;
+  }
+  .body-image-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .body-info{
+    margin: 0;
+  }
+  .body-title {
+    margin-top: 20px;
+    font-size: 32px;
+  }
+  .body-details {
+    margin-bottom: 20px;
+    text-align: justify;
+  }
+  .work-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .sponser-tag {
+    width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    grid-gap: 20px;
+  }
+  .feature{
+    display: flex;
+    flex-direction: column;
+  }
+  .feature-body,
+.function-details,
+.facts-body {
+  width: 100%;
+  height: 81.02px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+}
+.feature-tittle {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  width: 100%;
+  height: 70px;
+  border-left: 5px solid orange;
+  padding-left: 10px;
+  margin-bottom: 15px;
+}
+.media1{
+  margin: 40px 0 0 0;
+}
+
+.architect-right {
+  margin-top: 40px;
+  height: 300px;
+  width: 100%;
+  background-size: cover;
+}
+.experience-button {
+  padding: 8px;
+}
+}
